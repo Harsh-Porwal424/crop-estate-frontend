@@ -35,8 +35,11 @@
         }
       }
 
-      span {
-        color: rgba(255, 0, 0, 0.591);
+      // Add the error class here
+      .error {
+        color: red;
+        margin-top: 10px;
+        font-size: 14px;
       }
 
       a {
@@ -54,6 +57,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
     img {
       width: 100%;
     }
