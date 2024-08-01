@@ -7,7 +7,7 @@ export const listData = [
     bathroom: 1,
     price: 1000,
     address: "456 Park Avenue, London",
-    latitude: 51.5074,
+    latitute: 51.5074,
     longitude: -0.1278,
   },
   {
@@ -18,7 +18,7 @@ export const listData = [
     bathroom: 2,
     price: 1500,
     address: "789 Oxford Street, London",
-    latitude: 52.4862,
+    latitute: 52.4862,
     longitude: -1.8904,
   },
   {
@@ -29,7 +29,7 @@ export const listData = [
     bathroom: 1,
     price: 800,
     address: "101 Baker Street, London",
-    latitude: 53.4808,
+    latitute: 53.4808,
     longitude: -2.2426,
   },
   {
@@ -40,7 +40,7 @@ export const listData = [
     bathroom: 1,
     price: 1000,
     address: "234 Kingsway, London,",
-    latitude: 53.8008,
+    latitute: 53.8008,
     longitude: -1.5491,
   },
   {
@@ -51,7 +51,7 @@ export const listData = [
     bathroom: 2,
     price: 1500,
     address: "567 Victoria Road, London",
-    latitude: 53.4084,
+    latitute: 53.4084,
     longitude: -2.9916,
   },
   {
@@ -62,7 +62,7 @@ export const listData = [
     bathroom: 1,
     price: 800,
     address: "890 Regent Street, London",
-    latitude: 54.9783,
+    latitute: 54.9783,
     longitude: -1.6174,
   },
   {
@@ -73,7 +73,7 @@ export const listData = [
     bathroom: 1,
     price: 1000,
     address: "112 Piccadilly, London",
-    latitude: 53.3811,
+    latitute: 53.3811,
     longitude: -1.4701,
   },
   {
@@ -84,7 +84,7 @@ export const listData = [
     bathroom: 2,
     price: 1500,
     address: "8765 Main High Street, London",
-    latitude: 51.4545,
+    latitute: 51.4545,
     longitude: -2.5879,
   },
 ];
@@ -102,7 +102,7 @@ export const singlePostData = {
   bedRooms: 2,
   bathroom: 1,
   size: 861,
-  latitude: 51.5074,
+  latitute: 51.5074,
   longitude: -0.1278,
   city: "London",
   address: "1234 Broadway St",
