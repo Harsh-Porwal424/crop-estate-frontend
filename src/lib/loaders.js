@@ -23,3 +23,15 @@ export const listPageLoader = async ({ request, params }) => {
         return null; // or throw error to handle it in an ErrorBoundary
     }
 };
+
+export const profilePageLoader = async () => {
+  try {
+      const postPromise = apiRequest("/users/profilePosts");
+      return defer({
+        postResponse: postPromise,
+      });
+  } catch (error) {
+      console.error("Failed to load profile page data", error);
+      return null; // or throw error to handle it in an ErrorBoundary
+  }
+};
